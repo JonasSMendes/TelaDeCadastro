@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/06/f6/be/06f6be787771c84be91ba05d8e871207.jpg");
+    background-size: cover;
+    background-color: #CCC;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-info {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    color: #CCC;
+
+}
+
+.area-info h2 {
+    font-size: 36px;
+    color: #CCC;
+}
+
+.area-info .info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.area-info .info h3 {
+    font-size: 56px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    color: #ccccccb4;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.redes img {
+    width: 16px;
+    background-color: #CCC;
+    border-radius: 50%;
+}
+
+
+
+
+
+.area-login {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+    background: rgba(0, 0, 0, 0.31);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+}
+
+.area-login h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #CCC;
+}
+
+.area-login form {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputs {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.area-login form input:not([type="checkbox"]):not([type="button"]):not([type="submit"]) {
+
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.area-login form input:focus~label:not([for="aceito_os_termos"]),
+.area-login form input:valid~label:not([for="aceito_os_termos"]) {
+    transform: translateY(-20px);
+
+}
+
+.area-login form .inputs label:not([for="aceito_os_termos"]) {
+    color: #CCC;
+    position: absolute;
+    pointer-events: none;
+    bottom: 20px;
+    left: 0;
+    transition: transform 500ms ease;
+}
+
+
+.area-login form .checkbox {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #CCC;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+.checkbox label a {
+    color: rgb(192, 112, 112);
+}
+
+
+.button {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+input[type="button"] {
+    padding: 10px 30px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    color: #CCC;
+    cursor: pointer;
+    transition: 500ms ease;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+
+
+input[type="submit"] {
+    padding: 10px 30px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    color: #CCC;
+    cursor: pointer;
+    transition: 500ms ease;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(192, 112, 112);
+    color: black;
+}
+
+input[type="button"]:hover {
+    color: black;
+    background-color: #CCC;
+}
