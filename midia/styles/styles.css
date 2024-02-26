@@ -85,6 +85,7 @@ main {
 }
 
 .area-login h1 {
+    width: 100%;
     font-size: 42px;
     margin-bottom: 30px;
     color: #CCC;
@@ -107,7 +108,6 @@ main {
 }
 
 .area-login form input:not([type="checkbox"]):not([type="button"]):not([type="submit"]) {
-
     width: 80%;
     height: 80%;
     background-color: transparent;
@@ -162,6 +162,7 @@ main {
 }
 
 input[type="button"] {
+    width: 100%;
     padding: 10px 30px;
     height: 50px;
     border: none;
@@ -198,4 +199,208 @@ input[type="submit"]:hover {
 input[type="button"]:hover {
     color: black;
     background-color: #CCC;
+}
+
+@media (max-width: 1300px) {
+    .area-info .info {
+        width: 100%;
+    }
+
+    .area-info .info h3 {
+        font-size: 72px;
+    }
+
+    .area-info h2 {
+        font-size: 42px;
+    }
+
+    .area-info .info p {
+        font-size: 22px;
+    }
+
+    .redes {
+        font-size: 18px;
+    }
+
+
+    .area-login h1 {
+        font-size: 62px;
+    }
+
+    .inputs {
+        font-size: 32px;
+    }
+
+    .area-login form input:not([type="checkbox"]):not([type="button"]):not([type="submit"]) {
+        font-size: 23px;
+    }
+
+    input[type="button"] {
+        padding: 20px 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .area-info .info {
+        width: 100%;
+    }
+
+    .area-info .info h3 {
+        font-size: 42px;
+    }
+
+    .area-info h2 {
+        font-size: 32px;
+    }
+
+    .area-info .info p {
+        font-size: 16px;
+    }
+
+    .redes {
+        font-size: 11px;
+    }
+
+
+    .area-login h1 {
+        font-size: 52px;
+    }
+
+    .inputs {
+        font-size: 18px;
+    }
+
+    .area-login form input:not([type="checkbox"]):not([type="button"]):not([type="submit"]) {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    input[type="button"] {
+        padding: 8px 14px;
+        text-align: center;
+        gap: 5px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 985px) {
+    .area-login {
+        width: 70%;
+    }
+
+    .area-info .info {
+        width: 100%;
+    }
+
+    .area-info .info h3 {
+        font-size: 32px;
+    }
+
+
+}
+
+@media (max-width:640px) {
+    main {
+        flex-direction: column;
+        height: 100%;
+        padding: 30px;
+    }
+
+    .area-login {
+        width: 70%;
+    }
+
+    .area-info {
+        gap: 30px;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .area-info .info h3 {
+        font-size: 42px;
+    }
+
+    .area-info h2 {
+        font-size: 36px;
+    }
+
+    .button {
+        width: 100%;
+        gap: 5px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .area-login {
+        width: 100%;
+    }
+
+    .area-info {
+        gap: 40px;
+        width: 80%;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .area-info .info h3 {
+        font-size: 22px;
+    }
+
+    .area-info h2 {
+        font-size: 16px;
+    }
+
+    .area-info .info p {
+        font-size: 11px;
+    }
+
+    .button {
+
+        gap: 5px;
+        font-size: 10px;
+        flex-direction: column;
+    }
+
+    .area-login form input:not([type="checkbox"]):not([type="button"]):not([type="submit"]) {
+        font-size: 15px;
+    }
+
+    .area-login h1 {
+        font-size: 28px;
+    }
+
+    input[type="button"] {
+        font-size: 9px;
+        width: auto;
+    }
+
+    input[type="submit"] {
+        font-size: 9px;
+    }
+
+    .checkbox {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .checkbox label a {
+        font-size: 10px;
+    }
+
+
 }
